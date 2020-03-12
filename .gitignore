@@ -1,0 +1,9 @@
+.config/nvim/plugs/*
+.config/nnn
+.config/gcloud
+.config/configstore
+.config/coc-server/vendor/*
+.config/coc/extensions/coc-phpls-data/*
+.config/coc/extensions/node_modules/*
+.config/htop
+.config/neofetch
