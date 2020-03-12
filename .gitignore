@@ -5,5 +5,9 @@
 .config/coc-server/vendor/*
 .config/coc/extensions/coc-phpls-data/*
 .config/coc/extensions/node_modules/*
+.congig/coc/history.json
+.config/coc/commands
+.config/coc/memos.json
+.config/coc/mru
 .config/htop
 .config/neofetch
