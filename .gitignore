@@ -9,5 +9,6 @@
 .config/coc/commands
 .config/coc/memos.json
 .config/coc/mru
+.config/coc/extensions/db.json
 .config/htop
 .config/neofetch

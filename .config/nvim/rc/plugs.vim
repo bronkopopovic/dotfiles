@@ -26,5 +26,8 @@ Plug 'tpope/vim-commentary'
 "Plug 'SirVer/ultisnips'
 Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'ddrscott/vim-side-search'
 
 call plug#end()
