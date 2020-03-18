@@ -120,3 +120,31 @@ let g:side_search_split_pct = 0.4
 nnoremap <Leader>ss :SideSearch <C-r><C-w><CR> | wincmd p
 " Create an shorter `SS` command
 command! -complete=file -nargs=+ SS execute 'SideSearch <args>'
+
+"#######################
+" INDENT LINES
+"#######################
+"let g:indent_guides_auto_colors = 0
+"let g:indent_guides_enable_on_vim_startup = 1
+"let g:indent_guides_guide_size = 1
+
+"#######################
+" X/HTML CLOSE TAGS
+"#######################
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.twig'
+let g:closetag_xhtml_filenames = '*.xhtml,*.jsx'
+let g:closetag_filetypes = 'html,xhtml,phtml,twig'
+let g:closetag_xhtml_filetypes = 'xhtml,jsx'
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_regions = {
+    \ 'typescript.tsx': 'jsxRegion,tsxRegion',
+    \ 'javascript.jsx': 'jsxRegion',
+    \ }
+let g:closetag_shortcut = '>'
+let g:closetag_close_shortcut = '<leader>>'
+
+"#######################
+" Bookmarks
+"#######################
+let g:bookmark_sign = '♥'
+let g:bookmark_highlight_lines = 1

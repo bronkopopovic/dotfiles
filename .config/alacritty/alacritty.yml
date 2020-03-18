@@ -60,16 +60,18 @@ window:
     decorations: 'buttonless'
 
 key_bindings:
-    - { key: Up, mods: Alt, chars: "\x1b[1;5A" }
-    - { key: Down, mods: Alt, chars: "\x1b[1;5B" }
-    - { key: Left, mods: Alt, chars: "\x1bb" }
-    - { key: Right, mods: Alt, chars: "\x1bf" }
+    - { key: Up,        mods: Alt,          chars:      "\x1b[1;5A" }
+    - { key: Down,      mods: Alt,          chars:      "\x1b[1;5B" }
+    - { key: Left,      mods: Alt,          chars:      "\x1bb" }
+    - { key: Right,     mods: Alt,          chars:      "\x1bf" }
+    - { key: 36,        mods: Command,      action:     ToggleFullscreen } 
+    - { key: N,         mods: Command,      action:     SpawnNewInstance }
+    - { key: 28,        mods: Alt,          chars:      "{" }
+    - { key: 25,        mods: Alt,          chars:      "}" }
+    - { key: 37,        mods: Alt,          chars:      "@" }
+    - { key: 26,        mods: Alt|Shift,    chars:      "\\" }
+    - { key: 26,        mods: Alt,          chars:      "|" }
+    - { key: 45,        mods: Alt,          chars:      "~" }
+    - { key: 23,        mods: Alt,          chars:      "[" }
+    - { key: 22,        mods: Alt,          chars:      "]" }
 
-    - { key: 28, mods: Alt, chars: "{" }
-    - { key: 25, mods: Alt, chars: "}" }
-    - { key: 37, mods: Alt, chars: "@" }
-    - { key: 26, mods: Alt|Shift, chars: "\\" }
-    - { key: 26, mods: Alt, chars: "|" }
-    - { key: 45, mods: Alt, chars: "~" }
-    - { key: 23, mods: Alt, chars: "[" }
-    - { key: 22, mods: Alt, chars: "]" }
