@@ -24,6 +24,7 @@ let NERDTreeDirArrows = 1
 let NERDTreeAutoDeleteBuffer = 1
 map <C-n> :NERDTreeToggle<CR>
 let g:ranger_replace_netrw = 1
+let NERDTreeShowHidden=1
 
 " Save session on quitting Vim
 autocmd VimLeavePre * NERDTreeClose
@@ -102,6 +103,7 @@ augroup END
 " CTRL P
 "#######################
 map <C-b> :CtrlPBuffer<CR>
+let g:ctrlp_show_hidden = 1
 
 "#######################
 " Side search
