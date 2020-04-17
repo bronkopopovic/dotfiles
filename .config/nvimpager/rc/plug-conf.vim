@@ -10,7 +10,7 @@ set noshowmode
 let g:diminactive_enable_focus = 1
 
 " lightline b& lightline buffers
-let g:lightline                                 = {'colorscheme': 'solarized'}
+let g:lightline                                 = {'colorscheme': 'powerline'}
 let g:lightline.tabline                         = {'left': [['buffers']], 'right': [['close']]}
 let g:lightline.component_expand                = {'buffers': 'lightline#bufferline#buffers'}
 let g:lightline.component_type                  = {'buffers': 'tabsel'}

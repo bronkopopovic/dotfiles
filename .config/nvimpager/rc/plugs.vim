@@ -15,5 +15,6 @@ Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'dominikduda/vim_current_word'
 Plug 'itchyny/lightline.vim'
 Plug 'vim-scripts/SQLComplete.vim'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
