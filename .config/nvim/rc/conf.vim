@@ -16,6 +16,12 @@ set shiftwidth=4
 set expandtab
 set scrolloff=7
 
+set list
+set listchars=tab:→\ ,space:·
+
+set wrap
+set breakindent
+
 set background=dark
 
 filetype plugin on

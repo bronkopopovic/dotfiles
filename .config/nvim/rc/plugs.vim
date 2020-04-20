@@ -16,7 +16,6 @@ Plug 'mhinz/vim-startify'
 Plug 'kien/ctrlp.vim'
 Plug 'ddrscott/vim-side-search'
 
-
 " SIDEBAR
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'kristijanhusak/defx-icons'
@@ -34,17 +33,13 @@ Plug 'mengelbrecht/lightline-bufferline'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-scripts/Rainbow-Parenthesis'
-Plug 'majutsushi/tagbar'
 Plug 'blueyed/vim-diminactive'
 Plug 'xolox/vim-misc'
-Plug 'francoiscabrol/ranger.vim'
 Plug 'tpope/vim-sensible'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'dominikduda/vim_current_word'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Townk/vim-autoclose'
-Plug 'vim-vdebug/vdebug'
 Plug 'vim-scripts/SQLComplete.vim'
 Plug 'tpope/vim-commentary'
 Plug 'leafgarland/typescript-vim'
@@ -56,5 +51,9 @@ Plug 'editorconfig/editorconfig-vim'
 " Plug 'nathanaelkane/vim-indent-guides'
 " Plug 'honza/vim-snippets'
 " Plug 'SirVer/ultisnips'
+" Plug 'vim-vdebug/vdebug'
+" Plug 'francoiscabrol/ranger.vim'
+" Plug 'vim-scripts/Rainbow-Parenthesis'
+" Plug 'majutsushi/tagbar'
 
 call plug#end()
