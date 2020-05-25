@@ -17,7 +17,7 @@ set expandtab
 set scrolloff=7
 
 set list
-set listchars=tab:→\ ,space:·
+set listchars=tab:\|\ ,space:·
 
 set wrap
 set breakindent

@@ -34,6 +34,9 @@ alias l="exa -l -a -g --group-directories-first"
 alias cat="nvimpager -c"
 
 alias art="php artisan"
+alias artdo="docker exec -it energiemodell-application php artisan"
+alias laradockup="docker-compose up -f laradock/docker-compose.yml -d nginx postgres"
+alias laradockdown="docker-compose down -f laradock/docker-compose.yml nginx postgres"
 
 alias mage-clear="bin/magento cache:flush && rm -rf generated/code var/view_preprocessed pub/static/frontend pub/static/deployed_version.txt && cd tools && gulp styles && gulp babel && gulp svg && cd .."
 alias mage-clear2="bin/magento cache:flush && rm -rf generated/code var/view_preprocessed pub/static/frontend pub/static/deployed_version.txt"

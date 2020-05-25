@@ -12,6 +12,11 @@ let g:vim_current_word#highlight_current_word = 1
 let g:vim_current_word#highlight_delay = 500
 " autocmd BufAdd NERD_tree_*,your_buffer_name.rb,*.js :let b:vim_current_word_disabled_in_this_buffer = 1a
 
+"#######################
+" Lexima (autoclose)
+"#######################
+let g:lexima_enable_newline_rules = 0
+let g:lexima_enable_endwise_rules = 0
 
 "#######################
 " DEFX
@@ -103,6 +108,9 @@ call defx#custom#option('_', {
       \ 'toggle': 1,      
       \ 'columns': 'git:indent:icons:filename',
       \ 'resume': 1,
+      \ })
+call defx#custom#column('filename', {
+      \ 'max_width' : '2000'
       \ })
 
 "#######################
