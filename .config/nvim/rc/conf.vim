@@ -31,3 +31,6 @@ autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
 " hide default status line
 set noshowmode
+
+set autoread
+au FocusGained,BufEnter * :checktime
