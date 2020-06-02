@@ -3,6 +3,9 @@ autocmd StdinReadPre * let s:std_in=1
 " highlight bracket pairs
 let g:rainbow_active = 1
 
+" vim-move
+let g:move_key_modifier = 'C'
+
 " dim inactive windows
 let g:diminactive_enable_focus = 1
 
