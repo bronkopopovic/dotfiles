@@ -13,8 +13,11 @@ Plug 'xolox/vim-colorscheme-switcher'
 
 " NAVIGATION / SEARCH
 Plug 'mhinz/vim-startify'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'sgur/ctrlp-extensions.vim'
+Plug 'tacahiroy/ctrlp-funky'
 Plug 'ddrscott/vim-side-search'
+
 
 " SIDEBAR
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
@@ -25,8 +28,8 @@ Plug 'kristijanhusak/defx-git'
 
 
 " UI
-Plug 'itchyny/lightline.vim'
-Plug 'mengelbrecht/lightline-bufferline'
+" Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
 
 
 " GENERAL
