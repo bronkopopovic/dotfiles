@@ -119,7 +119,7 @@ call defx#custom#column('filename', {
 "#######################
 " Airline
 "#######################
-let g:airline_theme='dark'
+" let g:airline_theme='dark'
 
 "#######################
 " VDebug
