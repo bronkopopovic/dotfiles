@@ -20,9 +20,10 @@ Plug 'ddrscott/vim-side-search'
 
 
 " SIDEBAR
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'kristijanhusak/defx-icons'
-Plug 'kristijanhusak/defx-git'
+" Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
+ Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+ Plug 'kristijanhusak/defx-icons'
+ Plug 'kristijanhusak/defx-git'
 " Plug 'preservim/nerdtree'
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -37,6 +38,10 @@ Plug 'leafgarland/typescript-vim'
 Plug 'jwalton512/vim-blade'
 Plug 'kchmck/vim-coffee-script'
 Plug 'nelsyeung/twig.vim'
+Plug 'chrisbra/csv.vim'
+Plug 'arzg/vim-sh'
+Plug 'vim-python/python-syntax'
+Plug 'tmhedberg/SimpylFold'
 
 " GENERAL
 Plug 'tpope/vim-fugitive'

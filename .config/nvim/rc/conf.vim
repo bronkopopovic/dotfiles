@@ -16,6 +16,8 @@ set shiftwidth=4
 set expandtab
 set scrolloff=7
 
+set nofoldenable
+
 set list
 set listchars=tab:\|\ ,space:·
 

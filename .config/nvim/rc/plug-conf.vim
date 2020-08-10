@@ -1,5 +1,8 @@
 autocmd StdinReadPre * let s:std_in=1
 
+" python
+let g:python_highlight_all = 1
+
 " highlight bracket pairs
 let g:rainbow_active = 1
 
@@ -20,6 +23,10 @@ let g:vim_current_word#highlight_delay = 500
 "#######################
 let g:lexima_enable_newline_rules = 0
 let g:lexima_enable_endwise_rules = 0
+
+" Chadtree
+" nnoremap <C-n>CHADopen<CR>
+" lua vim.api.nvim_set_var("chadtree_settings", { use_icons = "emoji" })
 
 "#######################
 " DEFX
@@ -54,7 +61,7 @@ function! s:defx_my_settings() abort
   \ defx#do_action('toggle_columns',
   \                'mark:indent:icon:filename:type:size:time')
   nnoremap <silent><buffer><expr> S
-  \ defx#do_action('toggle_sort', 'time')
+  \ defx#do_action('toggle_sort', 'name')
   nnoremap <silent><buffer><expr> d
   \ defx#do_action('remove')
   nnoremap <silent><buffer><expr> r
