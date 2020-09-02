@@ -7,7 +7,7 @@ alias l="exa -l -a -g --group-directories-first"
 alias cat="nvimpager -c"
 
 alias art="php artisan"
-alias artdo="docker exec -it energiemodell-application php artisan"
+alias artdo="docker exec -it energiemodell-backend php artisan"
 alias laradockup="docker-compose up -f laradock/docker-compose.yml -d nginx postgres"
 alias laradockdown="docker-compose down -f laradock/docker-compose.yml nginx postgres"
 
@@ -24,6 +24,10 @@ alias ezc="nvim ~/.zshrc"
 alias evc="nvim ~/.config/nvim/init.vim"
 
 alias dotfiles="cd ~/.dotfiles && nvim -c 'Defx'"
+
+alias valetls="valet links && echo '\nProxies:' && valet proxies"
+
+alias magerun="n98-magerun2.phar"
 
 alias gs="git status"
 alias ts="tig status"

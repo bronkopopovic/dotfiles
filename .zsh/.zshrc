@@ -20,6 +20,8 @@ plugins=(
   zsh-syntax-highlighting
   history-substring-search
   history-search-multi-word
+  docker
+  docker-compose
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -40,6 +42,7 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 
 source ~/.dotfiles/.zsh/.alias.zsh
 source ~/.dotfiles/.zsh/.export.zsh
+source ~/.dotfiles/.zsh/.functions.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.dotfiles/.zsh/.p10k.zsh ]] || source ~/.dotfiles/.zsh/.p10k.zsh

@@ -18,6 +18,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.rvm/gems/default/bin"
 
 export PATH="$PATH:$HOME/.local/bin/"
 
@@ -28,4 +29,3 @@ export VISUAL=nvim
 export HIGHLIGHT_STYLE=solarized-dark
 
 if [ -n "$RANGER_LEVEL" ]; then export PS1="[ranger]$PS1"; fi
-
