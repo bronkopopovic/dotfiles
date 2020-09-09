@@ -3,7 +3,8 @@ alias c="clear"
 alias rr='ranger --choosedir=$HOME/.rangerdir; LASTDIR=`cat $HOME/.rangerdir`; cd "$LASTDIR"'
 
 #alias l="colorls -lA --git-status --sort-files" 
-alias l="exa -l -a -g --group-directories-first"
+#alias l="exa -l -a -g --group-directories-first"
+alias l="lsd -la"
 alias cat="nvimpager -c"
 
 alias art="php artisan"
