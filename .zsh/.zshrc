@@ -39,7 +39,6 @@ source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.
 source ~/.dotfiles/.zsh/.alias.zsh
 source ~/.dotfiles/.zsh/.export.zsh
 source ~/.dotfiles/.zsh/.functions.zsh
-source ~/.dotfiles/.zsh/.bindkeys.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.dotfiles/.zsh/.p10k.zsh ]] || source ~/.dotfiles/.zsh/.p10k.zsh
@@ -66,3 +65,5 @@ MODE_CURSOR_VICMD="#666 block"
 MODE_CURSOR_SEARCH="#666 steady underline"
 MODE_CURSOR_VISUAL="$MODE_CURSOR_VICMD steady bar"
 MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #666"
+
+source ~/.dotfiles/.zsh/.bindkeys.zsh

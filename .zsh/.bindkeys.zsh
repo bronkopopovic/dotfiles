@@ -1,10 +1,6 @@
 # Vi mode
 bindkey -v
 
-# disable ESC bindings
-bindkey -rpM viins '^['
-bindkey -rpM vicmd '^['
-
 # Edit prompt in vim with shift+v
 bindkey -M vicmd V edit-command-line
 
@@ -26,3 +22,7 @@ bindkey -M viins '^K' history-beginning-search-backward-end \
 
 bindkey '^[0C' forward-char \
         '^[0D' forward-char
+
+# disable ESC bindings (keep this at the bottom)
+bindkey -rpM viins '^['
+bindkey -rpM vicmd '^['
