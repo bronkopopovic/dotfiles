@@ -13,10 +13,15 @@ Plug 'xolox/vim-colorscheme-switcher'
 
 " NAVIGATION / SEARCH
 Plug 'mhinz/vim-startify'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'sgur/ctrlp-extensions.vim'
-Plug 'tacahiroy/ctrlp-funky'
-Plug 'ddrscott/vim-side-search'
+" Plug 'ctrlpvim/ctrlp.vim'
+" Plug 'sgur/ctrlp-extensions.vim'
+" Plug 'tacahiroy/ctrlp-funky'
+" Plug 'ddrscott/vim-side-search'
+" Plug 'junegunn/fzf'
+" Plug 'junegunn/fzf.vim'
+" Plug 'jremmen/vim-ripgrep'
+" Plug 'stefandtw/quickfix-reflector.vim'
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 
 
 " SIDEBAR
@@ -74,3 +79,22 @@ Plug 'matze/vim-move'
 " Plug 'majutsushi/tagbar'
 
 call plug#end()
+
+
+" PLUG CONFIGS
+autocmd StdinReadPre * let s:std_in=1
+
+source ~/.config/nvim/rc/plugs/editorconfig.vim
+source ~/.config/nvim/rc/plugs/vim-clap.vim
+source ~/.config/nvim/rc/plugs/defx.vim
+source ~/.config/nvim/rc/plugs/lexima.vim
+source ~/.config/nvim/rc/plugs/current-word.vim
+source ~/.config/nvim/rc/plugs/vim-move.vim
+source ~/.config/nvim/rc/plugs/python.vim
+source ~/.config/nvim/rc/plugs/diminactive.vim
+"source ~/.config/nvim/rc/plugs/ctrlp.vim
+"source ~/.config/nvim/rc/plugs/side-search.vim
+"source ~/.config/nvim/rc/plugs/close-tags.vim
+"source ~/.config/nvim/rc/plugs/nerd-tree.vim
+"source ~/.config/nvim/rc/plugs/bookmarks.vim
+"source ~/.config/nvim/rc/plugs/indent-lines.vim
