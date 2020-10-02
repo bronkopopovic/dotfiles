@@ -1,18 +1,20 @@
 call plug#begin('~/.config/nvim/plugs')
 
 " COLOR SCHEMES
-Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
+" Plug 'lifepillar/vim-solarized8'
 " Plug 'tomasr/molokai'
 
 
 " COLOR SCHEME RELATED
-Plug 'Taverius/vim-colorscheme-manager'
-Plug 'xolox/vim-colorscheme-switcher'
+" Plug 'Taverius/vim-colorscheme-manager'
+" Plug 'xolox/vim-colorscheme-switcher'
 
 
 " NAVIGATION / SEARCH
 Plug 'mhinz/vim-startify'
+Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
+" Plug 'hardcoreplayers/dashboard-nvim'
 " Plug 'ctrlpvim/ctrlp.vim'
 " Plug 'sgur/ctrlp-extensions.vim'
 " Plug 'tacahiroy/ctrlp-funky'
@@ -21,14 +23,14 @@ Plug 'mhinz/vim-startify'
 " Plug 'junegunn/fzf.vim'
 " Plug 'jremmen/vim-ripgrep'
 " Plug 'stefandtw/quickfix-reflector.vim'
-Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
+" Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 
 
 " SIDEBAR
+Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'kristijanhusak/defx-icons'
+Plug 'kristijanhusak/defx-git'
 " Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
- Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
- Plug 'kristijanhusak/defx-icons'
- Plug 'kristijanhusak/defx-git'
 " Plug 'preservim/nerdtree'
 " Plug 'Xuyuanp/nerdtree-git-plugin'
 
@@ -40,29 +42,29 @@ Plug 'vim-airline/vim-airline'
 " LANGS
 Plug 'vim-scripts/SQLComplete.vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 Plug 'jwalton512/vim-blade'
 Plug 'kchmck/vim-coffee-script'
 Plug 'nelsyeung/twig.vim'
 Plug 'chrisbra/csv.vim'
 Plug 'arzg/vim-sh'
 Plug 'vim-python/python-syntax'
-Plug 'tmhedberg/SimpylFold'
 
 " GENERAL
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
-Plug 'blueyed/vim-diminactive'
-Plug 'xolox/vim-misc'
-Plug 'tpope/vim-sensible'
-Plug 'tmux-plugins/vim-tmux-focus-events'
-Plug 'dominikduda/vim_current_word'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tpope/vim-commentary'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'jeffkreeftmeijer/vim-numbertoggle'
-Plug 'editorconfig/editorconfig-vim'
-Plug 'cohama/lexima.vim'
-Plug 'matze/vim-move'
+Plug 'tpope/vim-fugitive' " Git integration
+Plug 'airblade/vim-gitgutter' " Show per-line git status
+Plug 'blueyed/vim-diminactive' " Dim inactive panes
+Plug 'tpope/vim-sensible' " some common settings - search before pressing enter, autoread file changes, etc
+Plug 'tmux-plugins/vim-tmux-focus-events' " send focus events to vim when switching tmux panes
+Plug 'dominikduda/vim_current_word' " highlight current word
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " autocomplete & lsp integration
+Plug 'tpope/vim-commentary' " auto-comment macro
+Plug 'jeffkreeftmeijer/vim-numbertoggle' " Toggles absolute line numbers on inactive panes
+Plug 'editorconfig/editorconfig-vim' " Support for .editorconfig files
+Plug 'cohama/lexima.vim' " Auto close brackets & paranthesis
+Plug 'matze/vim-move' " Move lines & selections
+" Plug 'tmhedberg/SimpylFold'
+" Plug 'xolox/vim-misc'
 " Plug 'mtth/cursorcross.vim'
 " Plug 'rstacruz/vim-closer'
 " Plug 'jiangmiao/auto-pairs'

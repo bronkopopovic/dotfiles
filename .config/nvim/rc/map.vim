@@ -15,3 +15,4 @@ nnoremap <C-p> :Clap filer<CR>
 nnoremap <C-b> :Clap buffers<CR>
 nnoremap <C-f> :Clap grep<CR> 
 nnoremap <C-c> :Clap yanks<CR>
+nnoremap <C-g> :Clap git_diff_files<CR>

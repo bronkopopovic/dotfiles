@@ -1,4 +1,6 @@
+"#########################################
 " Vim-Clap Theme
+"#########################################
 let s:save_cpo = &cpoptions
 set cpoptions&vim
 let s:palette = {}
@@ -26,7 +28,15 @@ let g:clap#themes#gruvbox_dark#palette = s:palette
 let &cpoptions = s:save_cpo
 unlet s:save_cpo
 
-" Vim-Clap
-let g:clap_layout = { 'relative': 'editor', 'width': '67%', 'height': '50%', 'row': '10%', 'col': '17%' }
+"#########################################
+" Vim-Clap Config
+"#########################################
+let g:clap_layout = { 'relative': 'editor', 'width': '67%', 'height': '60%', 'row': '6%', 'col': '17%' }
 let g:clap_theme = 'gruvbox_dark'
-let g:clap_preview_size = 16
+let g:clap_preview_size = 100
+
+" dotfiles provider
+let g:clap_provider_dotfiles = {
+      \ 'source': ['~/.config/nvim/rc/plugs.vim', '~/.zshrc', '~/.tmux.conf'],
+      \ 'sink': 'e',
+      \ }

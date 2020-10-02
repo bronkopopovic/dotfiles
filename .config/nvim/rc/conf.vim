@@ -1,5 +1,6 @@
 filetype plugin on
 
+colorscheme gruvbox
 syntax on
 
 set mouse=a
