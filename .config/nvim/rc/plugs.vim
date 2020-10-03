@@ -40,15 +40,18 @@ Plug 'kristijanhusak/defx-git'
 Plug 'vim-airline/vim-airline'
 
 " LANGS
-Plug 'vim-scripts/SQLComplete.vim'
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'jwalton512/vim-blade'
-Plug 'kchmck/vim-coffee-script'
-Plug 'nelsyeung/twig.vim'
-Plug 'chrisbra/csv.vim'
-Plug 'arzg/vim-sh'
-Plug 'vim-python/python-syntax'
+" Plug 'vim-scripts/SQLComplete.vim'
+" Plug 'leafgarland/typescript-vim'
+" Plug 'peitalin/vim-jsx-typescript'
+" Plug 'jwalton512/vim-blade'
+" Plug 'kchmck/vim-coffee-script'
+" Plug 'nelsyeung/twig.vim'
+" Plug 'chrisbra/csv.vim'
+" Plug 'arzg/vim-sh'
+" Plug 'vim-python/python-syntax'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'neovim/nvim-lspconfig'
+Plug 'nvim-lua/completion-nvim'
 
 " GENERAL
 Plug 'tpope/vim-fugitive' " Git integration
@@ -56,13 +59,13 @@ Plug 'airblade/vim-gitgutter' " Show per-line git status
 Plug 'blueyed/vim-diminactive' " Dim inactive panes
 Plug 'tpope/vim-sensible' " some common settings - search before pressing enter, autoread file changes, etc
 Plug 'tmux-plugins/vim-tmux-focus-events' " send focus events to vim when switching tmux panes
-Plug 'dominikduda/vim_current_word' " highlight current word
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " autocomplete & lsp integration
 Plug 'tpope/vim-commentary' " auto-comment macro
 Plug 'jeffkreeftmeijer/vim-numbertoggle' " Toggles absolute line numbers on inactive panes
 Plug 'editorconfig/editorconfig-vim' " Support for .editorconfig files
 Plug 'cohama/lexima.vim' " Auto close brackets & paranthesis
 Plug 'matze/vim-move' " Move lines & selections
+" Plug 'dominikduda/vim_current_word' " highlight current word
 " Plug 'tmhedberg/SimpylFold'
 " Plug 'xolox/vim-misc'
 " Plug 'mtth/cursorcross.vim'
@@ -94,6 +97,8 @@ source ~/.config/nvim/rc/plugs/current-word.vim
 source ~/.config/nvim/rc/plugs/vim-move.vim
 source ~/.config/nvim/rc/plugs/python.vim
 source ~/.config/nvim/rc/plugs/diminactive.vim
+source ~/.config/nvim/rc/plugs/treesitter.vim
+source ~/.config/nvim/rc/plugs/lsp.vim
 "source ~/.config/nvim/rc/plugs/ctrlp.vim
 "source ~/.config/nvim/rc/plugs/side-search.vim
 "source ~/.config/nvim/rc/plugs/close-tags.vim
