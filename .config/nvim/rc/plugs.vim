@@ -51,7 +51,7 @@ Plug 'vim-airline/vim-airline'
 " Plug 'vim-python/python-syntax'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'neovim/nvim-lspconfig'
-Plug 'nvim-lua/completion-nvim'
+" Plug 'nvim-lua/completion-nvim'
 
 " GENERAL
 Plug 'tpope/vim-fugitive' " Git integration
@@ -98,7 +98,7 @@ source ~/.config/nvim/rc/plugs/vim-move.vim
 source ~/.config/nvim/rc/plugs/python.vim
 source ~/.config/nvim/rc/plugs/diminactive.vim
 source ~/.config/nvim/rc/plugs/treesitter.vim
-source ~/.config/nvim/rc/plugs/lsp.vim
+"source ~/.config/nvim/rc/plugs/lsp.vim
 "source ~/.config/nvim/rc/plugs/ctrlp.vim
 "source ~/.config/nvim/rc/plugs/side-search.vim
 "source ~/.config/nvim/rc/plugs/close-tags.vim
