@@ -50,21 +50,22 @@ Plug 'vim-airline/vim-airline'
 " Plug 'arzg/vim-sh'
 " Plug 'vim-python/python-syntax'
 Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'neovim/nvim-lspconfig'
+" Plug 'neovim/nvim-lspconfig'
 " Plug 'nvim-lua/completion-nvim'
 
 " GENERAL
 Plug 'tpope/vim-fugitive' " Git integration
 Plug 'airblade/vim-gitgutter' " Show per-line git status
-Plug 'blueyed/vim-diminactive' " Dim inactive panes
+" Plug 'blueyed/vim-diminactive' " Dim inactive panes
+" Plug 'tmux-plugins/vim-tmux-focus-events' " send focus events to vim when switching tmux panes
 Plug 'tpope/vim-sensible' " some common settings - search before pressing enter, autoread file changes, etc
-Plug 'tmux-plugins/vim-tmux-focus-events' " send focus events to vim when switching tmux panes
 Plug 'neoclide/coc.nvim', {'branch': 'release'} " autocomplete & lsp integration
 Plug 'tpope/vim-commentary' " auto-comment macro
 Plug 'jeffkreeftmeijer/vim-numbertoggle' " Toggles absolute line numbers on inactive panes
 Plug 'editorconfig/editorconfig-vim' " Support for .editorconfig files
-Plug 'cohama/lexima.vim' " Auto close brackets & paranthesis
+" Plug 'cohama/lexima.vim' " Auto close brackets & paranthesis
 Plug 'matze/vim-move' " Move lines & selections
+Plug 'voldikss/vim-floaterm' " Floating Terminal window
 " Plug 'dominikduda/vim_current_word' " highlight current word
 " Plug 'tmhedberg/SimpylFold'
 " Plug 'xolox/vim-misc'
