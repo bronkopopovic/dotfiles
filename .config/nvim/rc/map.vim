@@ -19,5 +19,6 @@ nnoremap <C-g> :Clap git_diff_files<CR>
 
 " Floating Terminal
 map <C-t> :FloatermToggle<CR>
+tnoremap <C-n> <C-\><C-n>
 tnoremap <C-t> <C-\><C-n> :FloatermToggle<CR>
 tnoremap <C-w>N <C-\><C-n> :FloatermNext<CR>
