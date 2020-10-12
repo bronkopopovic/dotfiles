@@ -8,3 +8,4 @@ source ~/.config/nvim/rc/map.vim
 source ~/.config/nvim/rc/plugs.vim
 source ~/.config/nvim/rc/plug-conf.vim
 source ~/.config/nvim/rc/coc.vim
+"source ~/.config/nvim/rc/neovim05.vim

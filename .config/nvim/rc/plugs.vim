@@ -1,7 +1,7 @@
 call plug#begin('~/.config/nvim/plugs')
 
 " COLOR SCHEMES
-Plug 'lifepillar/vim-solarized8'
+" Plug 'lifepillar/vim-solarized8'
 Plug 'morhetz/gruvbox'
 " Plug 'tomasr/molokai'
 
@@ -72,5 +72,11 @@ Plug 'matze/vim-move'
 " Plug 'francoiscabrol/ranger.vim'
 " Plug 'vim-scripts/Rainbow-Parenthesis'
 " Plug 'majutsushi/tagbar'
+"
+" Neovim 0.5
+" Plug 'neovim/nvim-lsp'
+" Plug 'neovim/nvim-lspconfig'
+" Plug 'Shougo/deoplete.nvim'
+" Plug 'Shougo/deoplete-lsp'
 
 call plug#end()

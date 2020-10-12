@@ -20,7 +20,7 @@ plugins=(
   zsh-syntax-highlighting
   docker
   docker-compose
-  zsh-vim-mode
+  #zsh-vim-mode
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -59,11 +59,11 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 source /Users/benutzer/Library/Preferences/org.dystroy.broot/launcher/bash/br
 
 # Vi Mode
-MODE_CURSOR_VIINS="#666 blinking bar"
-MODE_CURSOR_REPLACE="$MODE_CURSOR_VIINS #666"
-MODE_CURSOR_VICMD="#666 block"
-MODE_CURSOR_SEARCH="#666 steady underline"
-MODE_CURSOR_VISUAL="$MODE_CURSOR_VICMD steady bar"
-MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #666"
+#MODE_CURSOR_VIINS="#666 blinking bar"
+#MODE_CURSOR_REPLACE="$MODE_CURSOR_VIINS #666"
+#MODE_CURSOR_VICMD="#666 block"
+#MODE_CURSOR_SEARCH="#666 steady underline"
+#MODE_CURSOR_VISUAL="$MODE_CURSOR_VICMD steady bar"
+#MODE_CURSOR_VLINE="$MODE_CURSOR_VISUAL #666"
 
 source ~/.dotfiles/.zsh/.bindkeys.zsh

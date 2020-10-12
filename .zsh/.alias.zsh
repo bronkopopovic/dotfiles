@@ -8,7 +8,7 @@ alias l="lsd -la"
 alias cat="nvimpager -c"
 
 alias art="php artisan"
-alias artdo="docker exec -it energiemodell-backend php artisan"
+alias artdo="docker exec -it energiemodell-application php artisan"
 alias laradockup="docker-compose up -f laradock/docker-compose.yml -d nginx postgres"
 alias laradockdown="docker-compose down -f laradock/docker-compose.yml nginx postgres"
 
@@ -58,6 +58,7 @@ alias watchmysql="watch -n 0.2 mysqladmin -u root --password=Luum --verbose proc
 alias sshdev="ssh ssh-w011abca@dev.luum.ms"
 alias sshvall="ssh ssh-w0170b48@w0170b48.kasserver.com"
 alias sshdev2="ssh luumdev@luumdev.de"
+alias sshdev3="ssh luum@173.249.10.102"
 alias sshst="ssh stetson.eu@serverd01.anthec.de"
 
 alias vim="nvim"
@@ -71,3 +72,5 @@ alias countfiles="find . -type f | wc -l"
 alias countphplines="find . -name '*.php' | xargs wc -l"
 
 alias icat="kitty +kitten icat"
+
+alias cleardnscache="sudo killall -HUP mDNSResponder; sleep 2;"
