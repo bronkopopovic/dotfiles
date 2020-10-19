@@ -7,7 +7,7 @@ alias l="exa -l -a -g --group-directories-first"
 alias cat="nvimpager -c"
 
 alias art="php artisan"
-alias artdo="docker exec -it energiemodell-backend php artisan"
+alias artdo="docker exec -it energiemodell-dashboard_application php artisan"
 alias laradockup="docker-compose up -f laradock/docker-compose.yml -d nginx postgres"
 alias laradockdown="docker-compose down -f laradock/docker-compose.yml nginx postgres"
 

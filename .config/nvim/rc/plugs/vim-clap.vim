@@ -5,9 +5,9 @@ let s:save_cpo = &cpoptions
 set cpoptions&vim
 let s:palette = {}
 
-let grey_dark = '#1A1C1D'
-let grey_mid = '#232526'
-let grey_light = '#2D2F30'
+let grey_dark = '#1d2021'
+let grey_mid = '#282828'
+let grey_light = '#3c3836'
 
 let gruvbox_color_1 = grey_dark
 let gruvbox_color_2 = grey_mid
@@ -51,5 +51,4 @@ let g:clap_provider_dotfiles = {
       \ 'sink': 'e',
       \ }
 
-let g:clap_search_box_border_style = 'curve'
 let g:clap_popup_border = 'sharp'

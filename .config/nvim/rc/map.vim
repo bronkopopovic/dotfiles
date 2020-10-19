@@ -11,7 +11,7 @@ inoremap jk <esc>
 nmap <C-_> :set cursorcolumn!<CR>
 
 " fzf
-nnoremap <C-p> :Clap filer<CR>
+nnoremap <C-p> :Clap files<CR>
 nnoremap <C-b> :Clap buffers<CR>
 nnoremap <C-f> :Clap grep<CR> 
 nnoremap <C-c> :Clap yanks<CR>
