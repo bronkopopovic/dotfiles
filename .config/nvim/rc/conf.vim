@@ -1,6 +1,6 @@
 filetype plugin on
 
-syntax on
+colorscheme gruvbox
 
 set mouse=a
 set cursorline
@@ -36,3 +36,11 @@ set noshowmode
 
 set autoread
 au FocusGained,BufEnter * :checktime
+
+" au FileType php setlocal syntax=OFF
+" au FileType py setlocal syntax=OFF
+" au FileType js setlocal syntax=OFF
+" au FileType ts setlocal syntax=OFF
+au FileType php setlocal indentexpr =
+au FileType php setlocal autoindent
+au FileType pgp setlocal smartindent
