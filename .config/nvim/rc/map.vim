@@ -1,4 +1,5 @@
-nnoremap Q <Nop>
+nnoremap Q m<Nop>
+nnoremap <C-x> :noh<CR>
 
 " SELECT ALL
 map <S-a> ggVG
@@ -16,6 +17,7 @@ nnoremap <C-b> :Clap buffers<CR>
 nnoremap <C-f> :Clap grep<CR> 
 nnoremap <C-c> :Clap yanks<CR>
 nnoremap <C-g> :Clap git_diff_files<CR>
+nnoremap <C-m> :Clap mrufiles<CR>
 
 " Floating Terminal
 map <C-t> :FloatermToggle<CR>

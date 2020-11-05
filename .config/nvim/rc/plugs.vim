@@ -2,17 +2,12 @@ call plug#begin('~/.config/nvim/plugs')
 
 " COLOR SCHEMES
 Plug 'morhetz/gruvbox'
-" Plug 'lifepillar/vim-solarized8'
-" Plug 'tomasr/molokai'
 
 " NAVIGATION / SEARCH
 Plug 'mhinz/vim-startify'
 Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
-" Plug 'hardcoreplayers/dashboard-nvim'
-" Plug 'ctrlpvim/ctrlp.vim'
-" Plug 'sgur/ctrlp-extensions.vim'
-" Plug 'tacahiroy/ctrlp-funky'
-" Plug 'ddrscott/vim-side-search'
+Plug 'markwu/vim-mrufiles'
+Plug 'ggvgc/vim-fuzzysearch'
 " Plug 'junegunn/fzf'
 " Plug 'junegunn/fzf.vim'
 " Plug 'jremmen/vim-ripgrep'
@@ -22,13 +17,10 @@ Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'kristijanhusak/defx-icons'
 Plug 'kristijanhusak/defx-git'
-" Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
-" Plug 'preservim/nerdtree'
-" Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " UI
-Plug 'vim-airline/vim-airline'
-" Plug 'itchyny/lightline.vim'
+" Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 
 " LANGS
 Plug 'vim-scripts/SQLComplete.vim'
@@ -36,8 +28,8 @@ Plug 'jwalton512/vim-blade'
 Plug 'kchmck/vim-coffee-script'
 Plug 'nelsyeung/twig.vim'
 Plug 'chrisbra/csv.vim'
-" Plug 'nvim-treesitter/nvim-treesitter'
-" Plug 'nvim-treesitter/nvim-treesitter-refactor'
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'arzg/vim-sh'
@@ -87,7 +79,8 @@ source ~/.config/nvim/rc/plugs/vim-clap.vim
 source ~/.config/nvim/rc/plugs/defx.vim
 source ~/.config/nvim/rc/plugs/vim-move.vim
 source ~/.config/nvim/rc/plugs/python.vim
-" source ~/.config/nvim/rc/plugs/treesitter.vim
+source ~/.config/nvim/rc/plugs/treesitter.vim
+source ~/.config/nvim/rc/plugs/fuzzysearch.vim
 "source ~/.config/nvim/rc/plugs/lexima.vim
 "source ~/.config/nvim/rc/plugs/current-word.vim
 "source ~/.config/nvim/rc/plugs/diminactive.vim
