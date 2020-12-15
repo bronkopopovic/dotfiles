@@ -23,3 +23,6 @@ nnoremap <C-m> :Clap mrufiles<CR>
 map <C-t> :FloatermToggle<CR>
 tnoremap <C-n> <C-\><C-n>
 tnoremap <C-t> <C-\><C-n> :FloatermToggle<CR>
+
+" quickfix selection via enter
+autocmd BufReadPost quickfix nnoremap <buffer> <CR> <CR>

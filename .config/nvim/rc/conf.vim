@@ -44,3 +44,5 @@ au FocusGained,BufEnter * :checktime
 au FileType php setlocal indentexpr =
 au FileType php setlocal autoindent
 au FileType pgp setlocal smartindent
+
+let g:python3_host_prog = '/usr/local/opt/python@3.8/bin/python3'

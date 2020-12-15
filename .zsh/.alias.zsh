@@ -56,6 +56,7 @@ alias sshdev="ssh ssh-w011abca@dev.luum.ms"
 alias sshvall="ssh ssh-w0170b48@w0170b48.kasserver.com"
 alias sshdev2="ssh luumdev@luumdev.de"
 alias sshst="ssh stetson.eu@serverd01.anthec.de"
+alias sshmb="ssh luum@173.249.10.102"
 
 alias vim="nvim"
 alias vi="nvim"
