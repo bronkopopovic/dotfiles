@@ -79,9 +79,10 @@ source ~/.config/nvim/rc/plugs/vim-clap.vim
 source ~/.config/nvim/rc/plugs/defx.vim
 source ~/.config/nvim/rc/plugs/vim-move.vim
 source ~/.config/nvim/rc/plugs/python.vim
+source ~/.config/nvim/rc/plugs/lightline.vim
 "source ~/.config/nvim/rc/plugs/treesitter.vim
 source ~/.config/nvim/rc/plugs/fuzzysearch.vim
-source ~/.config/nvim/rc/plugs/airline.vim
+"source ~/.config/nvim/rc/plugs/airline.vim
 "source ~/.config/nvim/rc/plugs/lexima.vim
 "source ~/.config/nvim/rc/plugs/current-word.vim
 "source ~/.config/nvim/rc/plugs/diminactive.vim
