@@ -21,6 +21,7 @@ Plug 'kristijanhusak/defx-git'
 " UI
 " Plug 'vim-airline/vim-airline'
 Plug 'itchyny/lightline.vim'
+Plug 'bronkopopovic/lightline-tabnames.vim'
 
 " LANGS
 Plug 'vim-scripts/SQLComplete.vim'
@@ -28,8 +29,8 @@ Plug 'jwalton512/vim-blade'
 Plug 'kchmck/vim-coffee-script'
 Plug 'nelsyeung/twig.vim'
 Plug 'chrisbra/csv.vim'
-Plug 'nvim-treesitter/nvim-treesitter'
-Plug 'nvim-treesitter/nvim-treesitter-refactor'
+" Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'arzg/vim-sh'
