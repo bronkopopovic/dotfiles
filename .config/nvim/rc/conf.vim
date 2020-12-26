@@ -31,6 +31,9 @@ filetype plugin on
 autocmd FocusLost * call feedkeys("\<esc>")
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
+set undofile
+set undodir=~/.dotfiles/.undodir
+
 " hide default status line
 set noshowmode
 
