@@ -29,12 +29,12 @@ Plug 'jwalton512/vim-blade'
 Plug 'kchmck/vim-coffee-script'
 Plug 'nelsyeung/twig.vim'
 Plug 'chrisbra/csv.vim'
-" Plug 'nvim-treesitter/nvim-treesitter'
-" Plug 'nvim-treesitter/nvim-treesitter-refactor'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'arzg/vim-sh'
 Plug 'vim-python/python-syntax'
+" Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-treesitter/nvim-treesitter-refactor'
 " Plug 'neovim/nvim-lspconfig'
 " Plug 'nvim-lua/completion-nvim'
 
@@ -80,6 +80,7 @@ source ~/.config/nvim/rc/plugs/vim-clap.vim
 source ~/.config/nvim/rc/plugs/defx.vim
 source ~/.config/nvim/rc/plugs/vim-move.vim
 source ~/.config/nvim/rc/plugs/python.vim
+source ~/.config/nvim/rc/plugs/lightline.vim
 "source ~/.config/nvim/rc/plugs/treesitter.vim
 source ~/.config/nvim/rc/plugs/fuzzysearch.vim
 "source ~/.config/nvim/rc/plugs/lexima.vim
