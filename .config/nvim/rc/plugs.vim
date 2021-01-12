@@ -22,6 +22,7 @@ Plug 'kristijanhusak/defx-git'
 " Plug 'vim-airline/vim-airline'
 Plug 'itchyny/lightline.vim'
 Plug 'bronkopopovic/lightline-tabnames.vim'
+Plug 'simeji/winresizer'
 
 " LANGS
 Plug 'vim-scripts/SQLComplete.vim'
@@ -33,6 +34,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'arzg/vim-sh'
 Plug 'vim-python/python-syntax'
+" Plug 'leafoftree/vim-vue-plugin'
 " Plug 'nvim-treesitter/nvim-treesitter'
 " Plug 'nvim-treesitter/nvim-treesitter-refactor'
 " Plug 'neovim/nvim-lspconfig'
@@ -83,6 +85,8 @@ source ~/.config/nvim/rc/plugs/python.vim
 source ~/.config/nvim/rc/plugs/lightline.vim
 "source ~/.config/nvim/rc/plugs/treesitter.vim
 source ~/.config/nvim/rc/plugs/fuzzysearch.vim
+source ~/.config/nvim/rc/plugs/vim-vue-plugin.vim
+source ~/.config/nvim/rc/plugs/winresizer.vim
 "source ~/.config/nvim/rc/plugs/lexima.vim
 "source ~/.config/nvim/rc/plugs/current-word.vim
 "source ~/.config/nvim/rc/plugs/diminactive.vim

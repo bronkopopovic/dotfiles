@@ -9,5 +9,3 @@ augroup MyColors
     autocmd!
     autocmd ColorScheme * call MyHighlights()
 augroup END
-
-hi Floaterm guibg=#1a1c1d

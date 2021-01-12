@@ -1,6 +1,7 @@
 filetype plugin on
 
 colorscheme gruvbox
+let g:gruvbox_invert_selection=0
 
 set mouse=a
 set cursorline
@@ -18,19 +19,22 @@ set scrolloff=7
 
 set nofoldenable
 
+" visible space and tab characters
 set list
 set listchars=tab:\|\ ,space:·
 
+" Wrap lines and keep indentation
 set wrap
 set breakindent
 
 set background=dark
 
-filetype plugin on
-
+" Hit ESC key, when window focus is lost
 autocmd FocusLost * call feedkeys("\<esc>")
+
 autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 
+" Persistend Undo
 set undofile
 set undodir=~/.dotfiles/.undodir
 
